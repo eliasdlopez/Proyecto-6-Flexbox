@@ -1,0 +1,98 @@
+h1, p, h2, li {
+	font-family: sans-serif;
+}
+
+h1 {
+	padd
+}
+h2 {
+	font-size: 23px ;
+	font-weight: bold;
+	color: #4d4d4d;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+nav {
+	display: flex; /* or inline-flex */
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 20px 30px;
+}
+
+.navigation {
+	display: flex; /* or inline-flex */}
+
+.navigation li {
+	padding: 0px 20px;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 50px;
+	padding: 50px;
+}
+
+
+article {
+	padding: 0px 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.main-article {
+	flex: 2;
+}
+
+.small-art {
+	flex: 1;
+}
+
+.elements {
+	display: flex;
+	flex-direction: row;
+}
+
+header {
+	padding: 0px 30px;
+}
+
+span {
+	font-size: 30px;
+}
+
+.ion-navicon-round {
+	display: none;
+}
+
+@media (max-width: 600px){
+	.ion-navicon-round {
+		display: inline-block;
+		color: black;
+	}
+
+	.elements {
+		flex-direction: column;
+	}
+
+	.main-article {
+	flex: 1;
+	order: 3;
+	}
+
+	.navigation {
+		display: none;
+	}
+
+}
+
+* {
+	border: 1px solid black;
+}
+
+
